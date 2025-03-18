@@ -38,8 +38,9 @@
     join dept_manager dm ON de.dept_no = dm.dept_no
     join employees m ON dm.emp_no = m.emp_no
 
-/* Count employees in each department */
+/* Count employees in each department (count* with group by) */
     select d.dept_no, d.dept_name, count(*) as no_of_employees
     from departments as d
     join dept_emp as de on de.dept_no=d.dept_no
     group by dept_no
+
