@@ -15,4 +15,6 @@
     having no_of_employees > 50000
     order by no_of_employees
 
-
+/* count employees hired after 1999*/
+    select count(*) as no_of_employees from employees
+    where hire_date > '1999-12-31'
