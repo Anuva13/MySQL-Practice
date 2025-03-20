@@ -1,2 +1,2 @@
 # MySQL-Practice
-Mysql practice code and learnings
+Mysql practice code and learnings.
